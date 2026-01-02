@@ -31,8 +31,8 @@ export class PollsController {
         return await this.pollsService.rejoinPoll(
             //dummy data
             {
-                pollId: "whatever",
-                userId: "whatever",
+                pollID: "whatever",
+                userID: "whatever",
                 name : "Whatever",
             }
         )

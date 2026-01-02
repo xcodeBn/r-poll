@@ -1,0 +1,18 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "shared logic between client and server",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hassan Bazzoun",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "react-dom": "^17.0.2",
+    "socket.io-client": "^4.4.1",
+    "typescript": "^4.5.3"
+  }
+}
